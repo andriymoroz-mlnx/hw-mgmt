@@ -8,7 +8,7 @@ K_SRC ?= "/lib/modules/$(KVERSION)/build"
 pwd=$(shell pwd)
 
 %:
-	dh $@
+	dh $@ --with systemd
 
 override_dh_auto_configure:
 

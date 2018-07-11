@@ -1,0 +1,10 @@
+[Unit]
+Description=Mellanox Hardware Management
+
+[Service]
+Type=oneshot
+EnvironmentFile=/host/machine.conf
+ExecStart=/bin/bash -c "/usr/share/sonic/device/$onie_platform/hw-management start"
+
+[Install]
+WantedBy=multi-user.target

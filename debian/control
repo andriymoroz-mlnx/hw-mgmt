@@ -1,7 +1,7 @@
 Source: hw-management
 Priority: extra
 Maintainer: Adir Atias <adira@dev-r-vrt-128-008>
-Build-Depends:
+Build-Depends: dh-systemd
 Standards-Version:
 Section: libs
 Homepage: http://www.mellanox.com
